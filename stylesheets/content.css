@@ -1,0 +1,829 @@
+body {
+    height: 7020px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Stratos";
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+@font-face {
+    font-family:'Stratos';
+    src: url(fonts/Stratos-Regular.ttf);
+}
+
+.rovno{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -31.6%);
+}
+/*Первый экран*/
+.first_screen{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 746px;
+    background-color: #105FB0;
+}
+
+.first_screen_decoration{
+    margin-left: -126px;
+}
+
+.stratos_decoration{
+    margin-top: -58px;
+    width: 104.2%;
+    margin-left: -29px;
+
+}
+.stratos_logotype{
+    font-family: 'Stratos';
+    font-weight:600;
+    color: #FFF;
+    justify-content: center;
+    font-size: 290px;
+    margin-bottom: -425px;
+    margin-left: 230px;
+    margin-top: 118px;
+}
+
+.text_author{
+z-index: 3;
+color: #FFF;
+font-size: 24px;
+position: absolute;
+margin-left: 490px;
+margin-top: 25px;
+width: 381px;
+height: 35px;
+transform: rotate(-4deg);
+
+}
+
+.text_what_is_stratos{
+    z-index: 3;
+    position: absolute;
+    margin-top: 440px ;
+    margin-left: 685px;
+    color: #FFF;
+    font-size: 24px;
+    width: 327.586px;
+height: 65px;
+transform: rotate(-4deg);
+}
+
+/*Общий заголовок 32px*/
+
+/*Общий текст 20px*/
+
+
+/*Второй экран*/
+.second_screen{
+    margin-left: 150px;
+    width:1440px ;
+    height: 1620px;
+    
+}
+
+    
+
+.zagolovok{
+    z-index: 3;
+    color: #105FB0;
+font-size: 32px;
+margin-top: 80px;
+margin-left: 0px;
+
+}
+.main_text{
+    font-size: 20px;
+    color: #105FB0;
+   
+
+}
+
+.oval_propisnie{
+    margin-top: 45px;
+}
+
+.text_propisnie{
+    margin-top: -58px;
+    margin-left: 20px;
+    width: 254px;
+    height: 24px;
+    transform: rotate(-6.255deg);
+    flex-shrink: 0;
+    color: #105FB0;
+    font-family: Stratos;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.o_greece{
+    margin-top: 30px;
+    margin-bottom: 130px;
+}
+
+.oval_strochnie{
+    margin-top: 70px;
+margin-left: -1180px;
+}
+
+.text_strochnie{
+    margin-top: -48.5px;
+    margin-left: 20px;
+    width: 254px;
+    height: 24px;
+    transform: rotate(4.787deg);
+    flex-shrink: 0;
+    color: #105FB0;
+    font-family: Stratos;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.o_greece2{
+    margin-top: 25px;
+}
+
+/*Третий экран*/
+.third_screen{
+    margin-top: -870px;
+    margin-left: 150px;
+}
+
+.zagolovok2{
+    color: #105FB0;
+font-size: 32px;
+margin-top: 80px;
+
+}
+
+.text_20{
+    margin-top: -57px;
+    margin-left: 20px;
+    width: 254px;
+height: 24px;
+transform: rotate(-6.122deg);
+flex-shrink: 0;
+color: #105FB0;
+
+font-family: Stratos;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/*Четвертый экран*/
+.fourth_screen{
+    overflow: hidden;
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    width: 100%;
+    height: 1300px;
+    background-color: #105FB0;
+}
+
+.ticket{
+    margin-top: -100px;
+    z-index: 2;
+    margin-left: 0px;
+    
+}
+
+.form{
+    margin-top: 180px;
+    margin-left: 250px;
+
+}
+.time{
+    margin: -320px 980px 0px 380px;
+    z-index: 3;
+    width: 235px;
+    height: 80px;
+    transform: rotate(11.166deg);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Stratos;
+    font-size: 32px;
+}
+
+.text_complicated{
+margin-top: 230px;
+margin-left: 240px;
+margin-bottom: -100px;
+z-index: 3;
+width: 497px;
+height: 116px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Stratos;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.B_letter{
+    margin-top: 280px;
+    margin-left: -300px;
+}
+
+.B{
+    
+    margin-left: 240px;
+    margin-top: -20px;
+}
+/*Пятый экран*/
+.fifth_screen{
+    position: relative;
+    margin-left: 150px;
+}
+
+.stratos_greece{
+    z-index: 2;
+    margin: -440px 400px 0px 270px;
+    color: #105FB0;
+    font-size: 130px;
+    font-family: Stratos;
+    font-style: oblique;
+    position:absolute;
+}
+
+.sixth_screen{
+    z-index: 1;
+    margin-top: 70px;
+    width: 100%;
+    height: 434px;
+    background-color: #105FB0;
+
+}
+
+/*Алфавит*/
+.alphabet{
+    margin-left: 150px;
+    color: #FFF;
+font-family: Stratos;
+font-size: 36px;
+}
+/*Латиница*/
+.latinica{
+    margin-left: -5px;
+}
+
+.stroka1{
+    display: flex;
+  }
+  .stroka2, .stroka3, .stroka4, .stroka5 {
+    display: flex;
+    }
+  .stroka1 p{
+    width: 80px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 165px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+  }
+  .stroka2 p, .stroka3 p, .stroka4 p, .stroka5 p {
+    width: 80px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+  }
+  
+
+
+.oval_latinica{
+    
+    margin-top: 99px;
+    margin-left: -40px;
+    z-index: 3;
+    position: absolute;
+
+}
+
+.text_latinica{
+    z-index: 4;
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 12px;
+width: 151.276px;
+height: 31.808px;
+transform: rotate(-5.781deg);
+flex-shrink: 0;
+color: #FFF;
+font-family: Stratos;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/*Седьмой экран*/
+.seventh_screen{
+    z-index: 1;
+    margin-top: -1px;
+    position: relative;
+    width: 100%;
+    height: 870px;
+    background-color: #105FB0;
+
+}
+.alphabet2{
+    margin-left: 130px;
+    position: absolute;
+    color: #FFF;
+font-family: Stratos;
+font-size: 32px;
+margin-top: 500px;
+
+}
+/*Кириллица*/
+.text_kirilica{
+    
+    width: 210.369px;
+height: 31.808px;
+transform: rotate(4.22deg);
+flex-shrink: 0;
+    
+    z-index: 4;
+    margin-top: -421px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.oval_kirilica{
+    margin-left: -40px;
+    margin-top: -440px;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.kirilica{
+    margin-top: -535px;
+    margin-bottom: 380px;
+}
+
+
+.oval_symbols{
+    position: absolute;
+    margin-left: -40px ;
+    margin-top: -290px;
+}
+/*Символы*/
+.symbols{
+    margin-top: 5px;
+}
+.text_symbols{
+    width: 210.369px;
+height: 31.808px;
+transform: rotate(-5.78deg);
+flex-shrink: 0;
+margin-top: -275px;
+margin-left: 5px;
+margin-bottom: -150px;
+}
+
+.s_stroka2{
+ display: flex;
+ margin-top: 215px;
+margin-left: -660px;
+margin-bottom: -50px;
+}
+.s_stroka3{
+    display: flex;
+ margin-top: 270px;
+margin-left: -783px;
+margin-bottom: -50px;
+}
+
+.s_stroka2 p, .s_stroka3 p {
+    width: 80px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+.olive_corner{
+    position: absolute;
+    z-index: 3;
+    margin-left: 1050px;
+    margin-top: -1260px;
+
+}
+
+.olive4{
+    position: absolute;
+    z-index: 3;
+    margin-left: 1200px;
+    margin-top: -500px;
+    rotate: 290grad;
+}
+.olive5{
+    position: absolute;
+    z-index: 3;
+    margin-left: 1050px;
+    margin-top: -200px;
+}
+
+.using{
+    margin-left: 130px;
+}
+/*Восьмой экран*/
+.eight_screen{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 1570px;
+    background-color: rgb(255, 255, 255);
+}
+/*Приготовление оливкового масла*/
+.wheel{
+    
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: -130px;
+    margin-bottom: 10px;
+    width: 115%;
+    
+}
+
+
+.text_sale_olive{
+    margin-left: 970px;
+    margin-top: 477px;
+    margin-bottom: -715px;
+    justify-content: end;
+    width: 298px;
+height: 100px;
+transform: rotate(-19.214deg);
+flex-shrink: 0;
+    
+color: #105FB0;
+
+font-family: Stratos;
+font-size: 32px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.text_sale_butter{
+    justify-content: start;
+   margin-left: 110px;
+   margin-top: 1455px;
+   margin-bottom: -1398px;
+    width: 300px;
+height: 100px;
+transform: rotate(19.058deg);
+flex-shrink: 0;
+color: #105FB0;
+
+font-family: Stratos;
+font-size: 32px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+
+}
+
+/*Девятый экран*/
+.ninth_screen{
+    z-index: 1;
+    margin-top: 55px;
+    position: relative;
+    width: 100%;
+    height: 2200px;
+    background-color: #105FB0;
+}
+
+/*Этикетки*/
+.products{
+    margin-left: 15px;
+}
+.packages{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 130px;
+}
+
+.etiketki{
+    z-index: 2;
+}
+
+
+.lavrovi_list{
+    position: absolute;
+   color: #FFF;
+  
+}
+.list{
+    font-size: 64px;
+    margin-top: 245px;
+    margin-left: 150px;
+}
+.lavrovi{
+    font-size: 48px;
+    margin-top: -80px;
+    margin-left: 150px;
+}
+.greece_stratos1, .gram10{
+    margin-top: 380px;
+    margin-bottom: -355px;
+    margin-left: 150px;
+
+    font-style: italic;
+    font-size: 48px;
+}
+.olivkovoe_maslo{
+    position:absolute;
+    color: #FFF;
+}
+.original1, .pryamogo_otzhima{
+    position: absolute;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 205px;
+    margin-left: 455px;
+    ;
+}
+
+.olive_oil{
+    margin-top: 255px;
+    margin-left: 455px;
+    font-size: 64px;
+    line-height: 83.5%;
+}
+
+.pryamogo_otzhima{
+    position: absolute;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: -50px;
+    margin-left: 455px;
+}
+.procent{
+    margin-left: 455px;
+    margin-top: 130px;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.litr{
+    margin-left: 708px;
+    margin-top: -109px;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.vino{
+    position:absolute;
+    color: #FFF;
+}
+
+.vino_name{
+    margin-top: 205px;
+    margin-left: 995px;
+    font-size: 64px;
+}
+.original2{
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 995px;
+    margin-top: 205px;
+    margin-bottom: -200px;
+
+}
+
+.polusladkoe1{
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 995px;
+    margin-top: -50px;
+}
+.vishii_sort{
+    margin-left: 995px;
+    font-size: 24px;
+    margin-top: -20px;
+    font-style: italic;
+
+}
+.greece_stratos2{
+    font-size: 64px;
+    margin-left: 995px;
+    font-style: italic;
+    line-height: 120%;
+    margin-top: 265px;
+
+}
+.year_700{
+    font-size: 48px;
+    margin-left: 995px;
+    font-style: italic;
+    line-height: 120%;
+    margin-top: -18px
+}
+
+.olivki{
+    position:absolute;
+    color: #FFF;
+
+}
+.original3{
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 610px;
+    margin-left: 455px;
+    
+
+}
+.olivki_name{
+    margin-left: 455px;
+    font-size: 64px;
+margin-top: -20px;
+}
+
+.from{
+    margin-left: 455px;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: -62px;
+}
+
+.procent2{
+    margin-left: 455px;
+    margin-top: 110px;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.bez_gmo1{
+    margin-left: 640px;
+    margin-top: -109px;
+    font-size: 48px;
+    font-style: italic;
+
+}
+
+.grape{
+    position:absolute;
+    color: #FFF;
+}
+
+.vinograd{
+    font-size: 64px;
+    margin-top: 1020px;
+    margin-left: 150px;
+    
+}
+.kachestvo{
+    font-style: normal;
+    position: absolute;
+    margin-top: -63px;
+    margin-left: 153px;
+    font-size: 24px;
+
+}
+.bez_gmo2{
+    margin-left: 153px;
+    margin-top: 110px;
+    font-size: 48px;
+    font-style: italic;
+}
+
+.procent3{
+    font-size: 48px;
+    font-style: italic;
+    margin-top: -107px;
+margin-left: 545px;
+}
+
+.butilochki{
+    position: absolute;
+    margin-left: 190px;
+margin-top: 1400px;
+}
+
+/*Сосуды*/
+.butilochki{
+    color: #FFF;
+    position: absolute;
+}
+
+.polusuhoe{
+    margin-left: 215px;
+    margin-top: -370px;
+    font-size: 24px;
+font-style: italic;
+font-weight: 500;
+}
+.greece_stratos3{
+    margin-left: 215px;
+    margin-top: -12px;
+    font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+
+}
+.elada{
+    margin-left: 460px;
+    margin-top: -150px; ;
+    font-size: 28px;
+font-style: normal;
+font-weight: 500;
+}
+.maslo{
+    font-size: 20px;
+font-style: italic;
+font-weight: 500;
+margin-left: 462px;
+margin-top: -30px;
+}
+.procent4{
+    margin-left: 518px;
+margin-top: -18px;
+    font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 83.5%;
+}
+.bez_gmo3{
+    margin-top: 147px;
+    margin-left: 462px;
+    font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 83.5%;
+}
+.greece_oil{
+    margin-left: 690px;
+    margin-top: -305px;
+    font-size: 24px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+}
+.bez_gmo4{
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 162px;
+    font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 83.5%;
+}
+.procent5{
+    position: absolute;
+    margin-left: 688px;
+    margin-top: 188px;
+    font-size: 20px;
+font-style: italic;
+font-weight: 400;
+line-height: 83.5%;
+}
+
+/*Подвал*/
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-left: -120px;
+}
+.salad{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.name_moe{
+    justify-content: center;
+    margin-right: -600px;
+    white-space: nowrap;
+    margin-bottom: -100px;
+    width: 100px;
+    height: 100px;
+    margin-top: 370px;
+    margin-left: 390px;
+    color: #105FB0;
+    font-size: 32px;
+}
