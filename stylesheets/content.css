@@ -10,6 +10,11 @@ body {
     position: relative;
 }
 
+@media screen {
+    body{
+    max-width: 1440px;
+}
+}
 
 @font-face {
     font-family:'Stratos';
